@@ -16,7 +16,7 @@ const Login = () => {
           <input type="password" id="password" placeholder="*********" />
         </div>
         <button type="submit">
-          <Link to={"/home"}>Entrar</Link>
+          <Link to={"/home"} className="linkText">Entrar</Link>
         </button>
       </form>
     </section>
