@@ -7,19 +7,7 @@ export default class Pay extends Component {
     };
 
   render() {
-    return (
-      <div>
-        <h1>{this.props.title}</h1>
-        <h2>{this.state.count}</h2>
-        <button 
-            onClick={() => {
-                this.setState({count: this.state.count + 1})
-                }}
-                >
-                    Aumenta
-                </button>
-      </div>
-    );
+    return <h1>Ola mundin</h1>
   }
 }
 

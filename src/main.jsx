@@ -21,8 +21,8 @@ const router = createBrowserRouter([
     element: <Products />,
   },
   {
-    path: "/pay",
-    element: <Pay title="Contador" />,
+    path: "/pay/:payId",
+    element: <Pay />,
   },
 ]);
 
