@@ -1,5 +1,13 @@
+@use "../../sass/variables" as *;
+
 .home {
-    h1 {
-        background: aqua;
+    background: $main-color;
+    border-radius: $main-border-radius;
+
+    .container {
+        color: $second-color;
+
+
     }
+
 }
