@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.scss'
-import {  createBrowserRouter,  RouterProvider,} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Login from './views/Login/Login';
 import Home from './views/Home/Home';
 import Products from './views/Products/Products';
@@ -18,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/products/:productId",
     element: <Products />,
+  },
+  {
+    path: "/pay",
+    element: <Pay title="Contador" />,
   },
 ]);
 
