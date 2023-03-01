@@ -1,5 +1,5 @@
-import mangoIcon from "../../assets/Mango.png"
 import "./index.scss"
+import mangoIcon from "../../assets/Mango.png"
 
 const Header = () => {
   return (

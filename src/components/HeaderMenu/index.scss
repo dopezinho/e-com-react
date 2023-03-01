@@ -1,1 +1,57 @@
 @use "../../sass/variables" as *;
+
+.header-menu {
+    align-items: center;
+    background-color: $header-background;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+
+    &__logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    ul {
+        align-items: center;
+        color: $white;
+        display: flex;
+    }
+
+    li {
+        cursor: pointer;
+        font-size: 1rem;
+        list-style-type: none;
+        margin: 0 30px;
+    }
+
+    li:hover {
+        color: $contrast-color;
+    }
+
+    &__cart-shop {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+
+        h1 {
+            color: $white;
+            font-size: 1rem;
+            font-weight: 500;
+            margin: 10px;
+        }
+
+        svg {
+            height: 32px;
+        }
+    }
+
+    &__cart-shop:hover {
+        h1 {
+            color: $contrast-color;
+        }
+        svg {
+            fill: $contrast-color;
+        }
+    }
+}
