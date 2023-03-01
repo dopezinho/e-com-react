@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Search from '../../components/Search/Search';
 import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
 
-const Home = () => {
+const Home = ({ data }) => {
   return (
 
     <div className="home">
