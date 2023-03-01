@@ -1,17 +1,16 @@
 import "./index.scss"
-import searchLogo from "../../assets/search-solid-black.png"
-import profileLogo from "../../assets/user-account-profile-black.png"
-import favoriteLogo from "../../assets/favorite-black.png"
 
 const Search = () => {
   return (
     <div className="search">
       <div className="search__input-container">
-        <img src={searchLogo} alt="search logo" className="search__search-logo" />
-        <input type="text" placeholder="Search" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="46" width="46"><path d="M 19 3 C 13.488281 3 9 7.488281 9 13 C 9 15.394531 9.839844 17.589844 11.25 19.3125 L 3.28125 27.28125 L 4.71875 28.71875 L 12.6875 20.75 C 14.410156 22.160156 16.605469 23 19 23 C 24.511719 23 29 18.511719 29 13 C 29 7.488281 24.511719 3 19 3 Z M 19 5 C 23.429688 5 27 8.570313 27 13 C 27 17.429688 23.429688 21 19 21 C 14.570313 21 11 17.429688 11 13 C 11 8.570313 14.570313 5 19 5 Z"></path></svg>
+        <input type="text" placeholder="O que você está procurando?" />
       </div>
-      <img src={profileLogo} alt="profile logo" />
-      <img src={favoriteLogo} alt="favorite logo" />
+      <svg id="Flat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" height="46" width="46">
+        <path d="M127.88745,80a36,36,0,1,1,36-36A36.04061,36.04061,0,0,1,127.88745,80Zm83.78711,59.51367L172.34448,88.94629a7.93269,7.93269,0,0,0-.65723-.74512A27.81868,27.81868,0,0,0,151.88745,80h-48a27.81872,27.81872,0,0,0-19.79981,8.20117,7.93259,7.93259,0,0,0-.65722.74512L44.09936,139.51416A20.00055,20.00055,0,0,0,72.37378,167.7876l14.09961-10.96729-19.832,62.64014a20.00009,20.00009,0,0,0,36.23731,16.897l25.00879-39.35937,25.00879,39.35937a20.00007,20.00007,0,0,0,36.2373-16.897l-19.832-62.64014,14.09961,10.96729a20.00035,20.00035,0,0,0,28.27344-28.27393Z"></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="46" width="46"><path class="uim-primary" d="M17.56249,21.55957a.99941.99941,0,0,1-.46581-.11523L12,18.76465,6.90332,21.44434a.9999.9999,0,0,1-1.45117-1.05372l.97363-5.67578-4.124-4.01953a.99965.99965,0,0,1,.55469-1.70508l5.69824-.82812,2.54883-5.16406a1.04012,1.04012,0,0,1,1.793,0l2.54883,5.16406,5.69824.82812a.99965.99965,0,0,1,.55469,1.70508l-4.124,4.01953.97363,5.67578a1.00024,1.00024,0,0,1-.98536,1.169Z"></path></svg>
     </div>
   );
 };

@@ -1,33 +1,39 @@
 @use "../../sass/variables" as *; 
 
-/* 
-    input {
-        padding-left: 45px;
-        height: 48px;
-        width: 1096px;
-        border-radius: 10px;
-        border: 1px solid $border-input-color;
-    }
+    .search {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    
+        &__input-container {
+            position: relative;
 
-    .search input {
-        padding-left: 45px;
-        height: 48px;
-        width: 1096px;
-        border-radius: 10px;
-        border: 1px solid #7a7a7a;
-    }
+            svg {
+                color: gray;
+                font-size: 18px;
+                height: 20px;
+                left: 4px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
 
-    .search__input-container {
-        position: relative;
-    }
+        input {
+            border-radius: 10px;
+            border: $border-input-color;
+            height: 36px;
+            padding-left: 45px;
+            width: 1096px;
+        }
 
-    .search__search-logo {
-        position: absolute;
-        left: 10px;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 18px;
-        color: gray;
+        svg {
+            height: 25px;
+        }
+        svg:hover {
+            fill: $contrast-color;
+            cursor: pointer;
+        }
     }
     
- */
