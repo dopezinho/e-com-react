@@ -5,6 +5,10 @@
     justify-content: space-around;
     margin-top: 80px;
 
+    &__left-side {
+        min-width: 40%;
+    }
+
     &__form {
         display: flex;
         flex-direction: column;
@@ -64,6 +68,7 @@
         border-radius: 5px;
         background-color: #faf5f5;
         padding: 20px;
+        min-width: 35%;
 
         h1 {
             font-size: 2rem;
