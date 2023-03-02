@@ -10,7 +10,7 @@ import Pay from './views/Pay/Pay';
 import {PRODUCTS_MOCK} from "./mock/products.mock";
 
 const router = createBrowserRouter([
-  // element: <Home data={PRODUCTS_MOCK} />,
+  
   {
     path: "/",
     element: <Login />,
