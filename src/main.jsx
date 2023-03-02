@@ -1,30 +1,31 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Link } from "react-router-dom";
 import './index.scss'
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Login from './views/Login/Login';
 import Home from './views/Home/Home';
 import Products from './views/Products/Products';
 import Pay from './views/Pay/Pay';
-// import {PRODUCTS_MOCK} from "./mock/products.mock";
+import {PRODUCTS_MOCK} from "./mock/products.mock";
 
 const router = createBrowserRouter([
   // element: <Home data={PRODUCTS_MOCK} />,
   {
     path: "/",
-    element: <Login />,
+    element: <Home data={PRODUCTS_MOCK} />,
   },
   {
     path: "/home",
-    element: <Home />,
+    element: <Login />,
   },
   {
     path: "/products/:productId",
-    element: <Products  />,
+    element: <Products data={PRODUCTS_MOCK}/>,
   },
   {
     path: "/pay/:payId",
-    element: <Pay />,
+    element: <Pay data={PRODUCTS_MOCK}/>,
   },
 ]);
 
