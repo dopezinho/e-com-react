@@ -5,15 +5,15 @@ import ProductDetail from "../../components/ProductDetail/ProductDetail"
 import Search from "../../components/Search/Search"
 import './index.scss'
 
-const Products = () => {
-  const params = useParams()
+const Products = ({data}) => {
+  const { productId } = useParams();
+  const selectedProduct = data.find((product) => product.id == productId);
 
   return (
     <section className="product">
       <HeaderMenu />
       <Search />
-      <ProductDetail //data={selectProduct}
-       />
+      <ProductDetail data={selectedProduct} />
     </section>
   ) 
 }
