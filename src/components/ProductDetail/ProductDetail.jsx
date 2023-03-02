@@ -4,10 +4,10 @@
 
  const ProductDetail = ({ data }) => {
     return (
-        <div className="product-deitail">
+        <div className="product-detail">
             <div className="product-detail__left-side">
                 <div className="product-detail__card">
-                    <img src={data.imgPathDetail} alt={data.title} />
+                    <img src={data.imgPath} alt={data.title} />
                     <p>{data.imgPathDetail}</p>
                 </div>
                 <div className="product-detail__description">

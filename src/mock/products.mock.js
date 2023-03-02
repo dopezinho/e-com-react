@@ -1,8 +1,8 @@
 export const PRODUCTS_MOCK = [
     {
         id: 1,
-        imgPath: "product-1.png",
-        imgPathDetail: "../../../public/product-1.png",
+        imgPath: "../../../public/product-1.png",
+        imgPathDetail: "manguinha, rozinha, vem",
         title: "Manga Rosa",
         price: "R$ 42,00",
         colors: ["pink"],
@@ -10,8 +10,8 @@ export const PRODUCTS_MOCK = [
     },
     {
         id: 2,
-        imgPath: "product-2.png",
-        imgPathDetail: "../../../public/product-2.png",
+        imgPath: "../../../public/product-2.png",
+        imgPathDetail: "zuzinha nenezinha, vem",
         title: "Manga Azul",
         price: "R$ 22,30",
         colors: ["blue"],
@@ -19,8 +19,8 @@ export const PRODUCTS_MOCK = [
         },
         {
         id: 3,
-        imgPath: "product-3.png",
-        imgPathDetail: "../../../public/product-3.png",
+        imgPath: "../../../public/product-3.png",
+        imgPathDetail: "ama ama amarelo",
         title: "Manga Amarela",
         price: "R$ 50,20",
         colors: ["yellow"],
@@ -28,8 +28,8 @@ export const PRODUCTS_MOCK = [
         },
         {
         id: 4,
-        imgPath: "product-4.png",
-        imgPathDetail: "../../../public/product-4.png",
+        imgPath: "../../../public/product-4.png",
+        imgPathDetail: "num ta maduro ainda",
         title: "Manga Verde",
         price: "R$ 29,40",
         colors: ["green"],
@@ -37,8 +37,8 @@ export const PRODUCTS_MOCK = [
         },
         {
         id: 5,
-        imgPath: "product-5.png",
-        imgPathDetail: "../../../public/product-5.png",
+        imgPath: "../../../public/product-5.png",
+        imgPathDetail: "cavalin bom ein",
         title: "Manga Larga",
         price: "R$ 339,00",
         colors: ["grey"],
@@ -46,8 +46,8 @@ export const PRODUCTS_MOCK = [
         },
         {
         id: 6,
-        imgPath: "product-6.png",
-        imgPathDetail: "../../../public/product-6.png",
+        imgPath: "../../../public/product-6.png",
+        imgPathDetail: "pampa doido",
         title: "Pampa",
         price: "R$ 559,00",
         colors: ["purple"],
