@@ -10,6 +10,8 @@ const Home = ({ data }) => {
     <div className="home">
       <HeaderMenu/>
       <Search />
+
+      
     </div>
   )
 }

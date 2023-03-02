@@ -12,11 +12,11 @@ const router = createBrowserRouter([
   // element: <Home data={PRODUCTS_MOCK} />,
   {
     path: "/",
-    element: <Home />,
+    element: <Login />,
   },
   {
     path: "/home",
-    element: <Login />,
+    element: <Home />,
   },
   {
     path: "/products/:productId",

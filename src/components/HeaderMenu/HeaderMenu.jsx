@@ -1,5 +1,6 @@
 import "./index.scss";
 import mangoIcon from "../../assets/Mango.png"
+
 const HeaderMenu = () => {
   return (
     <header className="header-menu">
