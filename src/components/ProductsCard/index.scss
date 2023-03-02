@@ -1,1 +1,15 @@
 @use "../../sass/variables" as *;
+
+.home__card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 200px;
+    }
+
+    &-description {
+        text-align: center;
+    }
+}
