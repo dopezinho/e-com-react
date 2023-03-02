@@ -1,1 +1,85 @@
 @use "../../sass/variables" as *;
+
+.pay-detail {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+
+        button {
+            background-color: $contrast-color;
+            border: transparent;
+            border-radius: 5px;
+            color: #000;
+            height: 40px;
+            margin-top: 50px;
+        }
+        a {
+            color: $white;
+            font-size: 1rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+
+    &__input-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+        input {
+            border: 1px solid #d4c8c8;
+            border-radius: 5px;
+            height: 35px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    }
+
+    &__format {
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        input {
+            margin-bottom: 20px;
+
+        }
+        label {
+            font-weight: 300;
+        }
+    }
+
+    &__right-side {
+        border: 1px solid #d4c8c8;
+        border-radius: 5px;
+        background-color: #faf5f5;
+        padding: 20px;
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+    &__product-price {
+        align-items: center;
+        border-bottom: 1px solid #d4c8c8;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    &__description {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+}
