@@ -3,7 +3,6 @@ import "./index.scss";
 
 const ProductsCard = ({data}) => {
   return (
-    <div className="homere">
       <div className="home__card">
         <img src={data.imgPath} alt="model" />
         <div className="home__card-description">
@@ -13,7 +12,6 @@ const ProductsCard = ({data}) => {
           </button>
         </div>
       </div>
-    </div>
   );;
 };
 
